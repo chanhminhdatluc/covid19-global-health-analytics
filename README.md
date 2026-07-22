@@ -121,7 +121,7 @@ Based on the findings, the project recommends:
 
 The complete academic report includes the methodology, dashboard analysis, findings, recommendations, limitations, references, and appendices.
 
-[📄 View the full project report](covid19-global-health-analytics/report/Covid-19 Analytics Report.pdf)
+[📄 View the full project report](report/Covid-19%20Analytics%20Report.pdf)
 
 ## Repository Structure
 
