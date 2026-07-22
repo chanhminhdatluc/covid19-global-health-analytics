@@ -1,118 +1,206 @@
-# Global COVID-19 Health Analytics
+Global COVID-19 Health Analytics
 
-A business analytics portfolio project that uses **Microsoft Excel** and **Power BI** to examine global COVID-19 outcomes, healthcare readiness, testing capacity, vaccination coverage, mortality, and recovery performance across continents.
+An end-to-end business analytics portfolio project using Microsoft Excel and Power BI to analyse global COVID-19 outcomes, healthcare readiness, vaccination coverage, testing capacity, mortality, recovery performance, and regional vulnerability.
 
-![Power BI dashboard](assets/images/powerbi-dashboard.png)
+<p align="center">
+  <img src="./images/powerbi-dashboard-full.png" alt="Power BI COVID-19 Dashboard" width="900">
+</p>
 
-## Project overview
+Project Overview
 
-This project was developed for **BUS5PB - Principles of Business Analytics**. The analysis was designed to support World Health Organization decision-making by converting historical COVID-19 data into clear, actionable insights.
+This project was developed for BUS5PB – Principles of Business Analytics. The analysis was designed to support evidence-based decision-making by transforming historical COVID-19 data into clear, actionable insights for the World Health Organization (WHO).
 
-The Excel dashboard provides descriptive analysis of cases, deaths, vaccination rates, hospital capacity, healthcare access, and monthly trends. The Power BI dashboard adds interactive filtering, geographic analysis, time-series exploration, and regional comparisons.
+The project combines descriptive analysis in Excel with interactive and diagnostic analysis in Power BI. It examines differences between continents in confirmed cases, deaths, testing, vaccination, healthcare access, hospital capacity, and recovery outcomes.
 
-## Business problem
+Business Problem
 
-COVID-19 outcomes varied substantially between countries and continents. Decision-makers need to understand not only where case numbers were highest, but also where weak testing, limited healthcare access, low vaccination coverage, and poor recovery capacity created greater vulnerability.
+COVID-19 affected countries unevenly. Some regions recorded high infection rates but relatively low mortality, while others experienced high death-to-case ratios because of limited healthcare capacity, lower vaccination coverage, and weaker testing systems.
 
-This project addresses five questions:
+The analysis addresses the following questions:
 
-1. How did pandemic burden differ across continents?
-2. How did healthcare readiness vary between countries and regions?
-3. How did cases and deaths evolve over time?
-4. Which regions demonstrated stronger recovery capacity?
-5. Where did testing and mortality disparities indicate hidden vulnerability?
+How did COVID-19 cases and deaths differ across continents?
 
-## Tools and skills
+How did healthcare readiness vary between countries and regions?
 
-- **Microsoft Excel:** PivotTables, PivotCharts, slicers, KPI cards, maps, trend analysis
-- **Power BI:** interactive dashboards, DAX measures, maps, filters, time-series visuals, drill-through analysis
-- **Business analytics:** descriptive and diagnostic analysis, KPI design, regional benchmarking
-- **Data storytelling:** translating analytical findings into recommendations for decision-makers
+Which countries and continents showed the highest vulnerability?
 
-## Dashboard previews
+How did the pandemic evolve over time?
 
-### Power BI dashboard
+How did testing, vaccination, and healthcare capacity influence mortality and recovery?
 
-![Power BI dashboard](assets/images/powerbi-dashboard.png)
+Where should global health resources be prioritised?
 
-### Excel dashboard
+Tools and Technologies
 
-![Excel dashboard](assets/images/excel-dashboard.png)
+Microsoft Excel
 
-## Key insights
+Data preparation
 
-- Europe and the Americas recorded some of the highest confirmed case rates, while South America experienced particularly severe mortality outcomes.
-- Africa reported fewer detected cases, but limited testing and elevated mortality in several countries suggested potential under-detection and weaker healthcare capacity.
-- Europe and North America generally showed stronger vaccination coverage, hospital capacity, and healthcare access.
-- Many African and Pacific Island countries remained vulnerable because of lower vaccination coverage and weaker healthcare access.
-- Europe achieved the strongest reported recovery performance, while North America and parts of Africa showed comparatively weaker outcomes.
-- Testing was concentrated in Asia, Europe, and North America, while Africa and South America conducted a much smaller share of global tests.
+PivotTables
 
-## Selected visual analysis
+PivotCharts
 
-### Global vulnerability heatmap
+Descriptive analysis
 
-![COVID-19 vulnerability heatmap](assets/images/vulnerability-heatmap.png)
+Dashboard development
 
-The geographic view highlights countries with high deaths per million and helps identify regions where mortality was disproportionately severe relative to population.
+Microsoft Power BI
 
-### Pandemic evolution over time
+Data modelling
 
-![COVID-19 cases and deaths timeline](assets/images/pandemic-timeline.png)
+Interactive visualisations
 
-The time-series analysis shows major pandemic waves from 2020 to mid-2021 and illustrates how mortality declined after wider vaccine rollout in better-resourced regions.
+Time-series analysis
 
-### Testing and mortality disparity
+Geographic mapping
 
-![Testing and mortality comparison](assets/images/testing-vs-mortality.png)
+KPI cards
 
-The comparison shows that regions with lower testing capacity could still account for a large share of mortality, indicating possible under-detection and surveillance gaps.
+Filters and slicers
 
-## Recommendations
+Diagnostic analysis
 
-The analysis supports four priority actions:
+Analytical Workflow
 
-1. Expand hospital, ICU, oxygen, and emergency-care capacity in vulnerable regions.
-2. Improve vaccine procurement, distribution, regional manufacturing, and public confidence.
-3. Scale up affordable testing, standardised reporting, and genomic surveillance.
-4. Strengthen community resilience through local partnerships, workforce training, and access to essential medicines.
+Reviewed and prepared the COVID-19 dataset.
 
-## Repository structure
+Selected indicators related to cases, deaths, vaccination, testing, hospital capacity, healthcare access, and recovery.
 
-```text
-COVID19_Global_Health_Analytics_Portfolio/
+Used Excel PivotTables and PivotCharts to compare countries and continents.
+
+Built an Excel dashboard for descriptive analysis.
+
+Developed an interactive Power BI dashboard.
+
+Analysed regional vulnerability, mortality, testing disparities, and recovery performance.
+
+Converted analytical findings into recommendations for global health resource allocation.
+
+Dashboard Preview
+
+Power BI Dashboard
+
+<p align="center">
+  <img src="./images/powerbi-dashboard-full.png" alt="Power BI Dashboard" width="900">
+</p>
+
+Excel Dashboard
+
+<p align="center">
+  <img src="./images/excel-dashboard-full.png" alt="Excel Dashboard" width="900">
+</p>
+
+Key Visualisations
+
+Global COVID-19 Vulnerability Heatmap
+
+The geographic heatmap compares deaths per million across countries. Larger bubbles represent higher mortality relative to population and help identify regions with greater vulnerability.
+
+<p align="center">
+  <img src="./images/figure-12-covid19-vulnerability-heatmap.png" alt="COVID-19 Vulnerability Heatmap" width="850">
+</p>
+
+Pandemic Timeline
+
+The time-series visual tracks changes in daily new cases and daily new deaths from 2020 to mid-2021. It highlights major pandemic waves and the decline in mortality following broader vaccine distribution.
+
+<p align="center">
+  <img src="./images/figure-13-pandemic-timeline.png" alt="COVID-19 Pandemic Timeline" width="850">
+</p>
+
+Testing and Mortality Disparities
+
+This comparison shows the distribution of total deaths and total tests across continents. It highlights regions where low testing levels may have contributed to under-detection and weaker outbreak surveillance.
+
+<p align="center">
+  <img src="./images/figure-14-testing-vs-mortality.png" alt="COVID-19 Testing and Mortality Comparison" width="850">
+</p>
+
+Key Findings
+
+Europe and the Americas recorded some of the highest confirmed case burdens.
+
+South America experienced particularly high mortality, with Peru showing an exceptionally high death rate per million.
+
+Africa reported fewer confirmed cases but showed signs of under-testing and limited healthcare capacity.
+
+Europe and North America generally had stronger vaccination coverage, healthcare access, and hospital capacity.
+
+Africa and parts of Oceania had lower vaccination coverage and weaker healthcare access.
+
+Regions with earlier and broader vaccine distribution experienced faster reductions in mortality.
+
+Testing capacity was concentrated in Asia, Europe, and North America, while Africa and South America conducted substantially fewer tests.
+
+High case numbers alone did not fully represent vulnerability; mortality ratios, healthcare readiness, and recovery capacity provided a more complete picture.
+
+Recommendations
+
+Based on the findings, the project recommends:
+
+Expanding hospital and intensive-care capacity in vulnerable regions.
+
+Improving oxygen supply chains and emergency healthcare services.
+
+Strengthening vaccine access and distribution in low-coverage countries.
+
+Investing in affordable testing and standardised disease surveillance systems.
+
+Supporting community healthcare workers and local health organisations.
+
+Improving consistency and completeness in international health data reporting.
+
+Project Report
+
+The complete academic report includes the methodology, dashboard analysis, findings, recommendations, limitations, references, and appendices.
+
+View the full project report
+
+Repository Structure
+
+covid19-global-health-analytics/
+│
 ├── README.md
-├── assets/
-│   └── images/
-├── data/
-│   └── README.md
-├── excel/
-│   └── README.md
-├── powerbi/
-│   └── README.md
+│
+├── images/
+│   ├── powerbi-dashboard-full.png
+│   ├── excel-dashboard-full.png
+│   ├── figure-12-covid19-vulnerability-heatmap.png
+│   ├── figure-13-pandemic-timeline.png
+│   ├── figure-14-testing-vs-mortality.png
+│   └── additional-analysis-images.png
+│
 └── report/
-    └── BUS5PB_Assignment_1_Dat_Luc.pdf
-```
+    └── BUS5PB-COVID19-Analytics-Report.pdf
 
-## Limitations
+Skills Demonstrated
 
-The source report notes several limitations, including inconsistent reporting standards, under-testing, missing socioeconomic variables, and incomplete recovery data for some regions. These issues mean that reported case and recovery figures may not fully represent the true scale of the pandemic.
+Business analytics
 
-## Future improvements
+Data preparation
 
-- Add the original cleaned dataset and a formal data dictionary.
-- Upload the Excel workbook and Power BI `.pbix` file.
-- Document Power Query transformation steps and DAX measures.
-- Add a reproducible Python or SQL data-cleaning workflow.
-- Include socioeconomic indicators such as income, population density, age structure, and health expenditure.
-- Publish an interactive Power BI report link where permitted.
+Data visualisation
 
-## Full report
+Dashboard development
 
-The complete analytical report is available in the [`report`](report/) folder.
+Excel PivotTables and PivotCharts
 
-## Author
+Power BI reporting
 
-**Chanh Minh Dat Luc**  
-Master of Business Analytics - Data Science  
-Skills demonstrated: Excel, Power BI, data visualisation, analytical reasoning, and business recommendations.
+Time-series analysis
+
+Geographic analysis
+
+KPI development
+
+Insight communication
+
+Evidence-based recommendations
+
+Limitations
+
+The dataset contains differences in national reporting standards, possible under-reporting, missing values, and limited socioeconomic indicators. Therefore, the results should be interpreted as analytical evidence rather than a complete representation of the pandemic's true global impact.
+
+Author
+
+Chanh Minh Dat LucMaster of Business Analytics – Data ScienceLa Trobe University
