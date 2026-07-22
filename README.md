@@ -121,7 +121,7 @@ Based on the findings, the project recommends:
 
 The complete academic report includes the methodology, dashboard analysis, findings, recommendations, limitations, references, and appendices.
 
-[View the full project report](./report/BUS5PB-COVID19-Analytics-Report.pdf)
+[📄 View the full project report](./report/covid19-analytics-report.pdf)
 
 ## Repository Structure
 
